@@ -1,5 +1,4 @@
-# Fancy Hangman
----
+#Fancy Hangman
 ## Introdução
 
 O propósito deste projeto é aprender e como construir um **jogo da forca** de um modo que ele 
@@ -7,12 +6,12 @@ seja visualmente atrativo e com funcionalidades que destoem dos já disponíveis
 O projeto utilizará como base a metodologia eXtreme Programming (XP).
 
 ---
-### Frameworks/Ferramentas
+## Frameworks/Ferramentas
 
 - [Maven](https://maven.apache.org/)
 
 ---
-### Time
+## Time
 
 | Posição       | Nome                                              |
 |:-------------:|:-------------------------------------------------:|
@@ -20,7 +19,7 @@ O projeto utilizará como base a metodologia eXtreme Programming (XP).
 | Desenvolvedor | [Diego Peixoto](https://github.com/dvpeixoto)     |
 
 ---
-### Significado de nome dos Branches
+## Significado de nome dos Branches
 
 | Termo        | Significado                                       |
 |:------------:|:-------------------------------------------------:|
