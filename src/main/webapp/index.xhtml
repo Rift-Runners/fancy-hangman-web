@@ -1,12 +1,56 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
-    <h:head>
-        <title>Test</title>
-    </h:head>
-    <h:body>
-        <h:outputText value="Olá, #{testController.nome}"/>
-    </h:body>
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<h:outputStylesheet name="assets/bootstrap/css/bootstrap.css" />
+	<h:outputStylesheet name="style.css" />
+	<title>Fancy Hangman</title>
+</h:head>
+<h:body>
+	<div class="background">
+		<div class="container-fluid">
+			<div class="row row-eq-height">
+				<div class="col-md-12">
+					<p class="titulo-principal text-center">Fancy Hangman</p>
+				</div>
+			</div>
+			<div class="row row-eq-height">
+				<div class="col-md-1" />
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div class="panel-heading titulo-opcoes">Opções</div>
+						<div class="panel-body painel-opcoes">
+							<a href="#">Opção 1</a>
+							<a href="#">Opção 2</a>
+							<a href="#">Opção 3</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1" />
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-6">
+						<ui:repeat var="letra" value="">
+								<div class="letra">#{letra}</div>
+						</ui:repeat>
+						</div>
+						<div class="col-md-6">
+						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Palavra:</p>
+							<p>Assunto:</p>
+							<p>Dificuldade:</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1" />
+			</div>
+		</div>
+	</div>
+</h:body>
 </html>
-

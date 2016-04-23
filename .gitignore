@@ -1,2 +1,9 @@
+.project
+.tern-project
+.classpath
+.settings/
+
 nb-configuration.xml
 /target/
+/bin/
+

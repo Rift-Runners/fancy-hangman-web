@@ -14,13 +14,13 @@ import javax.faces.bean.ManagedBean;
  */
 @ManagedBean(eager = true)
 @ApplicationScoped
-public class TestController {
+public class GameController {
     
     String nome;
     /**
      * Creates a new instance of TestController
      */
-    public TestController() {
+    public GameController() {
         this.nome = "Teste!";
     }
 

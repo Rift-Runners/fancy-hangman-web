@@ -1,0 +1,55 @@
+/*"Configurando" as fontes
+-----------------------------------------------*/
+@font-face {
+    font-family: "TrackType";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Track/Track.otf") format("opentype");
+}
+
+body{
+	color: white;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.titulo-principal{
+	font-size: 70px;
+	font-family: TrackType;
+	padding: 30px 0px;
+}
+
+.background {
+    height:100%;
+    text-align: center;
+}
+
+.background::after {
+    content: "";
+    background-image: url(../resources/images/diagmonds.png);
+    background-size: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;   
+    position: absolute;
+}
+
+.titulo-opcoes{
+	font-family: TrackType;
+	font-size: 30px;
+	font-color: black;
+}
+
+.painel-opcoes a{
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 20px;
+}
