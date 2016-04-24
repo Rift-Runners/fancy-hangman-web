@@ -15,21 +15,19 @@ import javax.faces.bean.ManagedBean;
 @ManagedBean(eager = true)
 @ApplicationScoped
 public class GameController {
-    
-    String nome;
+
+    private String[] letras;
+
     /**
      * Creates a new instance of TestController
      */
     public GameController() {
-        this.nome = "Teste!";
+        this.letras = new String[]{"A", "B", "C", "D", "E", "F",
+        "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q",
+        "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
     }
 
-    public String getNome() {
-        return nome;
+    public String[] getLetras() {
+        return letras;
     }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    
 }
